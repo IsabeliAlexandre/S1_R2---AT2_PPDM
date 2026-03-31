@@ -1,13 +1,5 @@
 import React from 'react';
-import {
-  View,
-  Text,
-  Image,
-  StyleSheet,
-  Pressable,
-  ScrollView,
-  Alert
-} from 'react-native';
+import {View,Text,Image,StyleSheet,Pressable,ScrollView,Alert} from 'react-native';
 
 export default function Produtos() {
 

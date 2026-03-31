@@ -1,7 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, KeyboardAvoidingView, ScrollView, Platform, Pressable, Image } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { FontAwesome } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 
 export default function Home() {
@@ -50,7 +49,7 @@ export default function Home() {
 const styles = StyleSheet.create({
   container: {
     flexGrow: 1,
-    backgroundColor: '#f5f6fa',
+    backgroundColor: '#f8f5d1',
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
